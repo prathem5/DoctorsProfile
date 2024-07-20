@@ -1,0 +1,202 @@
+.nav-tabs{
+    list-style: none;
+    padding: 20px 10px;
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.4);
+    margin: 0 40px;
+    border-radius: 30px;
+    background-color: #232323;
+}
+
+.nav-tabs .filters ul {
+    list-style: none;
+    padding: 20px 10px;
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.4);
+    margin: 0 40px;
+    border-radius: 30px;
+    background-color: #232323;
+  }
+  
+  .nav-tabs .filters li {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .nav-tabs .filters li a {
+    color: #b6b6b6 !important;
+    text-decoration: none !important;
+  }
+  
+   .nav-tabs li a:hover {
+    color: #fff;
+  }
+
+
+  .nav-link.active {
+    color: var(--bs-nav-tabs-link-active-color);
+}
+
+
+.nav-tabs .nav-link {
+    margin-bottom: calc(-1* var(--bs-nav-tabs-border-width));
+    border-top-left-radius: var(--bs-nav-tabs-border-radius);
+    border-top-right-radius: var(--bs-nav-tabs-border-radius);
+}
+
+
+.titleSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 25px 0;
+    flex-direction: column;
+    color: #232323;
+}
+
+.myGallery .filters {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.myGallery .filters ul {
+    list-style: none;
+    padding: 20px 10px;
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.4);
+    margin: 0 40px;
+    border-radius: 30px;
+    background-color: #232323;
+}
+
+.myGallery .filters li.active a {
+    color: var(---secondColor);
+    border: 1px solid var(---primaryColor);
+    border-radius: 15px;
+    box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.4);
+    padding: 10px 25px;
+}
+
+.myGallery .filters li {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+}
+
+.myGallery .filters li a:hover {
+    color: #fff;
+}
+.myGallery .filters li a {
+    color: #b6b6b6;
+    text-decoration: none;
+    margin-top: -53px;
+}
+
+.myGallery .grid-item img:hover {
+    filter: none;
+}
+.myGallery .grid-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.myGallery .grid-item:hover .overlay {
+    opacity: 1;
+}
+.myGallery .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.myGallery .filters li a:hover {
+    color: #fff;
+}
+.myGallery .filters li a {
+    color: #b6b6b6;
+    text-decoration: none;
+}
+a:hover {
+    --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+}
+
+
+
+.banner-contain {
+    height: 300px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://velikorodnov.com/html/mindwellness/images/1920x512_bg3.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .banner-content {
+    text-align: center;
+    color: white !important;
+    font-family: var(---HeadFont) !important;
+  }
+  .banner-content {
+    font-family: var(---HeadFont) !important;
+    color: white;
+  }
+  
+  .fontfam{
+    font-family: var(---HeadFont) !important;
+  }
+  
+  h3{
+    font-family: var(---HeadFont) !important;
+  }
+  
+  .about-img{
+    width: 777px;
+    height: 500px;
+  }
+  .about-img img{
+    width: 100%;
+  }
+  .about-cont {
+    max-width: 1320px;
+    margin-top: 85px;
+  }
+  
+  .about-contt {
+    max-width: 1320px;
+    margin-top: 85px;
+    margin-left: 88px !important;
+    background-color: cadetblue;
+    padding: 62px 0px 62px 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-center i{
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: #fff;
+    font-size: xx-large;
+   
+  }

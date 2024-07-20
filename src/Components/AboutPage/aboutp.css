@@ -1,0 +1,220 @@
+.banner-container {
+  height: 300px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/BgrICs-NZj4hksnn3/videoblocks-medical-team-listening-specialist-doctor-and-taking-notes-during-brainstorming-sitting-in-hospital-meeting-room-surgeon-explaining-treatment-to-coworkers-presenting-plan-during-medical-conference_bc6j7_pop_thumbnail-1080_01.png') !important; 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.banner-cntent {
+  
+}
+.banner-content {
+}
+
+.fontfam{
+}
+
+h3{
+  font-family: var(---HeadFont) !important;
+}
+
+.about-img{
+  /* width: 630px; */
+  /* height: 360px !important; */
+  object-fit: cover;
+}
+.about-img img{
+  width: 100%;
+}
+.about-cont {
+  max-width: 1320px;
+  margin-top: 85px;
+}
+
+.about-contt {
+  max-width: 1320px;
+  margin-top: 85px;
+  margin-left: 88px !important;
+  background-color: lightgrey !important;
+  padding: 24px 0px 24px 62px;
+}
+
+.about-h{
+  color: white !important;
+  margin-bottom: 125px;
+}
+
+
+.fun-facts {
+  position: relative
+}
+
+.fun-facts.section {
+  padding: 120px 0
+}
+
+.fun-facts {
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.fun-facts .single-fun {
+  position: relative
+}
+
+.fun-facts .single-fun i {
+  position: absolute;
+  left: 0;
+  font-size: 62px;
+  color: #fff;
+  height: 70px;
+  width: 70px;
+  line-height: 67px;
+  font-size: 28px;
+  text-align: center;
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 0;
+  top: 50%;
+  margin: -35px 0 0;
+  transition: all .4s ease;
+  border-radius: 50%
+}
+
+.fun-facts .single-fun:hover i {
+  color: var(--primary-color);
+  background: #fff;
+  border-color: transparent
+}
+
+.fun-facts .single-fun .content {
+  padding-left: 94px
+}
+
+.fun-facts .single-fun span {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  position: relative;
+  transition: all eas .4s;
+  display: block;
+  margin-bottom: 7px
+}
+
+.fun-facts .single-fun p {
+  color: #fff;
+  font-size: 15px
+}
+
+
+
+
+.whyChoose .titleSection:after {
+  height: 7rem
+}
+
+.whyChooseImg {
+  width: 100%;
+  max-width: 700px;
+  
+  
+}
+
+.whyChooseImg img {
+  width: 100%;
+  height: 100%
+}
+.titleSection{
+/* margin-left: 530px !important; */
+margin-top: 55px;
+text-align: center
+;
+}
+
+.whyChoose .titleSection p {
+  font-weight: 900 !important;
+}
+
+.whyUsCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+
+.whyUsIcon svg {
+  
+  color: var(---secondColor)
+}
+
+.whyUsTitle h3 {
+  font-size: 1.2rem;
+  color: #111;
+  text-transform: capitalize;
+  font-weight: 500;
+  
+}
+
+.whyUsText p {
+  color: #444;
+  text-align: center;
+  max-width: 250px
+}
+
+.body-part{
+  height: 60px;
+}
+
+.mad-counter-inner{
+  gap: 85px !important;
+}
+
+.about-bt a{
+  font-weight: 500 !important;
+    color: white !important;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(95 158 160);
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .about-img {
+    width: 682px;
+    height: 360px !important;
+    object-fit: cover;
+}
+
+.whyChooseImg {
+  width: 34%;
+  max-width: 700px;
+}
+
+}
+@media only screen and (max-width: 500px) {
+  .about-img {
+    width: 682px;
+    height: 360px !important;
+    object-fit: cover;
+    margin-left: -41px !important;
+}
+}
+
+.mad-img-content{
+  margin-top: 88px;
+}
+
+@media (max-width: 700px){
+
+  }
+@media (min-width:700px){
+  .slidercros{
+      display:none !important ;
+  }
+}

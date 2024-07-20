@@ -1,0 +1,218 @@
+
+.footer  {
+    background-color:#0ab866 !important;
+    padding: 10vh 0px 0px 0px !important;
+}
+.footer p  {
+   color: #ffffff;
+}
+
+
+
+.footer-logo {
+    width: 150px;
+    height: 80px;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.address_main p {
+    padding: 10px 0px;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    font-family: Open Sans, sans-serif;
+
+}
+
+.footer-icon {
+    float: left;
+    margin-top: 3px;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.footer-icon ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer-icon ul li {
+    text-align: left;
+    margin-bottom: 10px;
+    list-style: none;
+    color: var(---primaryColor);
+   
+    font-family: Open Sans, sans-serif;
+
+}
+
+.footer-icon ul li i {
+    margin-right: 12px;
+    text-align: center;
+    color: var(---primaryColor);
+}
+
+.footer-icon ul li i svg {
+    font-size: 20px;
+    color: var(---TheamColor3);
+}
+
+.footer-icon ul li a {
+    text-decoration: none;
+    color: var(---primaryColor);
+}
+
+.footer-icon ul li a svg {
+    color: var(---primaryColor);
+}
+
+.footer-head h3 {
+    font-size: 25px;
+    color: white !important;
+    text-decoration: underline var(---TheamColor1);
+    margin-bottom: 20px;
+    font-family: var(--headingFont) !important;
+}
+
+.footer-link ul {
+    padding: 0px;
+    text-align: left;
+}
+
+.footer-service ul {
+    padding: 0px;
+    text-align: left;
+}
+
+.footer-service ul li {
+    text-align: left;
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer-service ul li a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-family: Open Sans, sans-serif;
+
+
+}
+
+.footer-link ul li {
+    text-align: left;
+    list-style: none;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.footer-link ul li a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Open Sans, sans-serif !important;
+
+
+    color: white;
+}
+
+.footer-add ul li {
+    text-align: left;
+    list-style: none;
+    line-height: 25px;
+}
+
+.footer-add ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif !important;
+
+    color: #ffffff;
+}
+
+.footer-social ul {
+    display: flex;
+    padding: 0px;
+}
+
+.footer-social ul li {
+    list-style: none;
+    margin: 0px 14px 0px 0px;
+}
+
+.footer-social ul li i {
+    font-size: 25px;
+}
+
+.footer-social ul li i svg {
+    color: var(---TheamColor3);
+}
+
+.copyright-area {
+    padding: 25px 0;
+}
+
+.copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+
+.footer-add ul {
+    padding: 0px;
+}
+
+.footer-add p {}
+
+
+.copyright-text p a {
+    font-weight: 100;
+
+    font-family: Open Sans, sans-serif !important;
+
+    text-decoration: none;
+}
+
+@media(max-width:992px) {
+    .footer-head h3 {
+        font-size: 20px;
+    }
+
+    .footer-icon ul li {
+        padding-left: 10px;
+    }
+
+    .footer-service ul li {
+        padding-left: 10px;
+    }
+    .footer-service ul li a {
+        color: #ffffff !important;
+    }
+
+    .footer-link ul li {
+        padding-left: 10px;
+    }
+
+    .footer-add ul li {
+        padding-left: 10px;
+    }
+
+    .footer-logo {
+        width: 150px;
+        height: auto;
+    }
+}
+
+.footer-logo img{
+  width: 85px !important;
+}

@@ -1,0 +1,26 @@
+.testimonial-img{
+    width: 94px;
+}
+
+
+.text-center i{
+        background-color: white !important;
+        border-radius: 10px;
+        color: #fff;
+        font-size: xx-large;
+        
+}
+.text-center p{
+    font-family: Open Sans, sans-serif;
+
+        
+}
+
+.testimonial-h{
+    font-weight: 400 !important;
+    font-size: 38px;
+    color: #252525;
+    padding: 20px 30px;
+    margin: 55px 0 40px !important;
+    font-family: var(--headingFont) !important;
+}

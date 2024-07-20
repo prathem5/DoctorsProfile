@@ -1,0 +1,50 @@
+.heading-text {
+  font-size: 2rem;
+  font-family: var(--headingFont) !important;
+  font-weight: bold;
+}
+
+.primeColor {
+  color: var(---primeColor) !important;
+}
+
+
+
+.clinic1 h2 {
+  font-size: 1.2rem !important;
+  font-family: var(--headingFont) !important;
+}
+
+.clinic1 h3 {
+  font-size: 1rem;
+     font-family: var(--headingFont) !important;
+}
+
+.clinic1 h4 {
+  font-size: 1rem;
+     font-family: var(--headingFont) !important;
+}
+
+.clinic1 {
+  height: 250px;
+  border: 1px solid #599597 !important;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 92%;
+}
+
+@media (max-width: 700px){
+  .whyUsCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+  }
+
+
+  .rahul-loc{
+    margin-top: 25px !important;
+  }

@@ -1,0 +1,33 @@
+.devicer {
+    width: 11em;
+    display: block;
+    height: 5px;
+    background-color: var(--colorPrimary);
+    margin-bottom: 15px;
+  }
+
+  .tf_service_details_text h3, .tf_service_details_text h4 {
+    font-size: 24px !important;
+}
+
+
+.tf_service_details_text h1,
+.tf_service_details_text h2,
+.tf_service_details_text h3,
+.tf_service_details_text h4,
+.tf_service_details_text h5,
+.tf_service_details_text h6 {
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 25px;
+}
+
+
+
+.service_dstails_img {
+  height: 350px;
+}
+
+.points-benifit{
+   margin-left: -32px;
+}
